@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+
+    {% block tittle-page%} ask {% endblock tittle-page %}
+
+    <div class="container"> 
+      {% block basic-content %}
+     
+       <div class="row">
+        <div class="col-lg-9" >
+
+               <div class="col-md-12" style="margin-top:30px;" > 
+                    <div class="col-md-6" >
+                           <p style="font-size: 150%;">New Question </p>
+                    </div>
+                   
+
+                </div>
+
+
+               <div class="col-md-12" style="margin-top:30px;" > 
+                    <div class="col-md-1" >
+                          Tittle:
+                    </div>
+                    <div class="col-md-8" >
+                        <input type="text" size="50"> 
+                  </div>
+
+                </div>
+
+                 <div class="col-md-12" > 
+                    <div class="col-md-1" style="margin-top:30px;">
+                          Tittle:
+                    </div>
+                    <div class="col-md-8" style="margin-top:30px;">
+                         <textarea name="comment" cols="50" rows="15"></textarea>
+                  </div>
+
+                </div>
+                    
+                   
+                  <div class="col-md-12" > 
+                    <div class="col-md-1" style="margin-top:30px;" >
+                          Tags:
+                    </div>
+                    <div class="col-md-8" style="margin-top:30px;" >
+                        <input type="text" size="50" placeholder="moon, park, puzzle"> 
+                  </div>
+
+                </div>
+
+         
+                 <div class="col-md-12" > 
+                    <div class="col-md-1" style="margin-top:30px;" >
+                          
+                    </div>
+                    <div class="col-md-8" style="margin-top:30px; text-align:left;" >
+                        <button type="button" class="btn btn-success">Ask</button>
+                  </div>
+
+                </div>
+
+
+         {% endblock basic-content %}
+        </div>
+
+        {% block steps %}
+        {% endblock steps %}

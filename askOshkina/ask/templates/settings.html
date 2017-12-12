@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+
+    {% block tittle-page%} Settings{% endblock tittle-page %}
+    {% block basic-content %}
+       <div class="row">
+        <div class="col-lg-9" >
+
+               <div class="col-md-12" style="margin-top:30px;" > 
+                    <div class="col-md-6" >
+                           <p style="font-size: 150%;">Settings: Dr.Pepper</p>
+                    </div>
+                   
+
+                </div>
+
+               
+
+               <div class="col-md-12" style="margin-top:30px;" > 
+                    <div class="col-md-1" >
+                          Login:
+                    </div>
+                    <div class="col-md-8" style="margin-left:20px;" >
+                        <input type="text" size="50" placeholder="dr_pepper"> 
+                  </div>
+
+                </div>
+
+
+                 <div class="col-md-12" style="margin-top:30px;" > 
+                    <div class="col-md-1" >
+                          Email:
+                    </div>
+                    <div class="col-md-8" style="margin-left:20px;" >
+                        <input type="text" size="50" placeholder="dr_pepper@mail.ru"> 
+                  </div>
+
+                </div>
+
+
+                <div class="col-md-12" style="margin-top:30px;" > 
+                    <div class="col-md-1" >
+                          NickName:
+                    </div>
+                    <div class="col-md-8" style="margin-left:20px;" >
+                        <input type="text" size="50" placeholder="Dr. Pepper"> 
+                  </div>
+
+                </div>
+
+
+                 <div class="col-md-12" > 
+                    <div class="col-md-1" style="margin-top:30px;">
+                          Password:
+                    </div>
+                    <div class="col-md-8" style="margin-top:30px; margin-left:20px;">
+                         <input type="password" maxlength="25" size="50" name="password">
+                  </div>
+
+                </div>
+                    
+              <div class="col-md-12" > 
+                  <div class="col-md-1" style="margin-top:30px;">
+                       Repeat Password
+                    </div>
+                    <div class="col-md-8" style="margin-top:30px; margin-left:20px;">
+                         <input type="password" maxlength="25" size="50" name="password">
+                  </div>
+
+                </div>
+
+                  <div class="col-md-12" style="margin-top:30px;" > 
+                    <div class="col-md-1" >
+                          Upload Avatar:
+                    </div>
+                    <div class="col-md-8" style="margin-left:20px;" >
+                       <img style="padding-top: 10px;" src="images/index.jpeg" width="30%">
+                        <button type="button"  style="margin-left:20px;" class="btn btn-success">Choose</button>
+                  </div>
+
+                </div>
+
+         
+                 <div class="col-md-12" > 
+                    <div class="col-md-1" style="margin-top:30px;" >
+                          
+                    </div>
+                    <div class="col-md-8" style="margin-top:30px; margin-left:20px; text-align:left;" >
+                        <button type="button" class="btn btn-success">Save</button>
+                  </div>
+
+                </div>
+
+                
+
+         
+      {% endblock basic-content %}
+    </div>
+          {% block steps %}
+            {% endblock steps %}
