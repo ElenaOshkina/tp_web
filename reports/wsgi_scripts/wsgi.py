@@ -1,7 +1,7 @@
 from wsgiref.simple_server import make_server
 
 def app(environ, start_response):
-  data = "Hello, World!\nGET parameters:\n"
+  data = "Hello, World   !\nGET parameters:\n"
   # Getting GET params 
   #Returns a dictionary in which the values are lists
   request_params = environ['QUERY_STRING']
@@ -38,5 +38,5 @@ def parse_params(params):
 
   return res
 
-httpd = make_server('localhost', 8081, app)
-httpd.serve_forever()
+#httpd = make_server('localhost', 8081, app)
+#httpd.serve_forever()
